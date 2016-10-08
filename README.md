@@ -55,11 +55,20 @@
             }
         });
 ##属性说明：
-            app:content_lr_paddding="10dp"                             //itemd内容的左右间隔
-            app:item_bg="@drawable/bg_selector_test"                   //item的b    
-            app:item_height="50dp"                                     //行高
-            app:item_margin="1dp"                                      //item之间的间隔
-            app:rows_margin="1dp"                                      //行间距
-            app:td_num="five"                                          //每行显示item的个数（目前只提供：three/four/five）  
-            app:text_color="#99FF99"                                   //titem的字体颜色 
-            app:text_size="11sp" />                                    //字体的大小 
+      <com.flowview.FlowView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/fv_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:paddingBottom="20dp"
+            app:content_lr_paddding="10dp"                    item内补丁的左右间隔
+            app:item_bg="@drawable/bg_selector_test"          item的背景
+            app:item_height="50dp"                            行高
+            app:item_margin="1dp"                             item之间的间隔
+            app:rows_margin="1dp"                             行间隔
+            app:td_num="five"                                 每行显示多少个       
+            app:text_color="#99FF99"                          item字体颜色
+            app:text_size="11sp" />                           item的字体大小
+            
+##注意事项：
+   在使用特定的item时，item的b特殊标志，请务必提供各个分辨率的适配,否则可能在一些高低分辨率的手机上适配将会出问题
