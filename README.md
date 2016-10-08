@@ -26,7 +26,7 @@
  List<String> mlist = new ArrayList<>();
         list = new ArrayList<>();
         mlist.add("圆明园");
-        mlist.add("是每个中");//
+        mlist.add("是每个中");
         mlist.add("国人心中");
         mlist.add("的痛几代的");//
         mlist.add("LV包包");
