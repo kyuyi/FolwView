@@ -5,8 +5,8 @@
 <img src="https://github.com/kyuyi/FolwView/blob/master/pic/Screenshot_2016-10-08-16-37-23_com.folwview.png"/>
 ##如何使用：
   ###目前只提供Gradle的使用方式使用方式如下：
-  ####Gradle部分：
-  ####XML部分：
+  ###Gradle部分：
+  ###XML部分：
         <com.flowview.FlowView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/fv_view"
             android:layout_width="match_parent"
@@ -21,7 +21,7 @@
             app:td_num="five"
             app:text_color="#99FF99"
             app:text_size="11sp" />
-  ####Java代码部分：
+  ###Java代码部分：
  FlowView  fv_view = (FlowView) findViewById(R.id.fv_view);
  List<String> mlist = new ArrayList<>();
         list = new ArrayList<>();
