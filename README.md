@@ -71,4 +71,5 @@
             app:text_size="11sp" />                           item的字体大小
             
 ##注意事项：
-   在使用特定的item时，item的b特殊标志，请务必提供各个分辨率的适配,否则可能在一些高低分辨率的手机上适配将会出问题
+   1.在使用特定的item时，item的b特殊标志，请务必提供各个分辨率的适配,否则可能在一些高低分辨率的手机上适配将会出问题
+   2.档item的条数过多时需要将该控件添加一个ScrollView父容器，添加ScrollView父容器后最后一行的item显示不完整你需要在该控件添加一行：anroid:layout_paddingButton="数值dp"
