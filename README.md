@@ -1,4 +1,27 @@
-
+# FolwView
+## 简介：
+   FlowView使用的是LinearLayout+RelativeLayout+TextView 组合而成的一种流布局控件。
+## 效果：
+<img src="https://github.com/kyuyi/FolwView/blob/master/pic/Screenshot_2016-10-08-16-37-23_com.folwview.png"/>
+##如何使用：
+###目前只提供Gradle的使用方式使用方式如下：
+###Gradle部分：
+####XML部分：
+<com.flowview.FlowView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/fv_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:paddingBottom="20dp"
+            app:content_lr_paddding="10dp"
+            app:item_bg="@drawable/bg_selector_test"
+            app:item_height="50dp"
+            app:item_margin="1dp"
+            app:rows_margin="1dp"
+            app:td_num="five"
+            app:text_color="#99FF99"
+            app:text_size="11sp" />
+####Java代码部分：
         FlowView fv_view = (FlowView) findViewById(R.id.fv_view);
         //设置普通的item的方式
         List<String> mlist = new ArrayList<>();
