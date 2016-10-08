@@ -7,7 +7,7 @@
 ###目前只提供Gradle的使用方式使用方式如下：
 ###Gradle部分：
 ####XML部分：
-<com.flowview.FlowView xmlns:app="http://schemas.android.com/apk/res-auto"
+      <com.flowview.FlowView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/fv_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -54,3 +54,12 @@
                 Toast.makeText(MainActivity.this, position + "--" + title, Toast.LENGTH_SHORT).show();
             }
         });
+##属性说明：
+            app:content_lr_paddding="10dp"                             //itemd内容的左右间隔
+            app:item_bg="@drawable/bg_selector_test"                   //item的b    
+            app:item_height="50dp"                                     //行高
+            app:item_margin="1dp"                                      //item之间的间隔
+            app:rows_margin="1dp"                                      //行间距
+            app:td_num="five"                                          //每行显示item的个数（目前只提供：three/four/five）  
+            app:text_color="#99FF99"                                   //titem的字体颜色 
+            app:text_size="11sp" />                                    //字体的大小 
