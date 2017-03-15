@@ -3,6 +3,7 @@
    FlowView使用的是LinearLayout+RelativeLayout+TextView 组合而成的一种流布局控件。
 ## 效果：
 <img src="https://github.com/kyuyi/FolwView/blob/master/pic/Screenshot_2016-10-08-16-37-23_com.folwview.png"/>
+
 ##如何使用：
 ###目前只提供Gradle的使用方式使用方式如下：
 ###Gradle部分：
