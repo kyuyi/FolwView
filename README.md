@@ -4,10 +4,10 @@
 ## 效果：
 <img src="https://github.com/kyuyi/FolwView/blob/master/pic/Screenshot_2016-10-08-16-37-23_com.folwview.png"/>
 
-##如何使用：
-###目前只提供Gradle的使用方式使用方式如下：
-###Gradle部分：
-####XML部分：
+## 如何使用：
+### 目前只提供Gradle的使用方式使用方式如下：
+### Gradle部分：
+#### XML部分：
       <com.flowview.FlowView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/fv_view"
             android:layout_width="match_parent"
@@ -22,7 +22,7 @@
             app:td_num="five"
             app:text_color="#99FF99"
             app:text_size="11sp" />
-####Java代码部分：
+#### Java代码部分：
         FlowView fv_view = (FlowView) findViewById(R.id.fv_view);
         //设置普通的item的方式
         List<String> mlist = new ArrayList<>();
@@ -55,7 +55,7 @@
                 Toast.makeText(MainActivity.this, position + "--" + title, Toast.LENGTH_SHORT).show();
             }
         });
-##属性说明：
+## 属性说明：
       <com.flowview.FlowView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/fv_view"
             android:layout_width="match_parent"
@@ -71,6 +71,6 @@
             app:text_color="#99FF99"                          item字体颜色
             app:text_size="11sp" />                           item的字体大小
             
-##注意事项：
+## 注意事项：
    1.在使用特定的item时，item的b特殊标志，请务必提供各个分辨率的适配,否则可能在一些高低分辨率的手机上适配将会出问题
    2.档item的条数过多时需要将该控件添加一个ScrollView父容器，添加ScrollView父容器后最后一行的item显示不完整你需要在该控件添加一行：anroid:layout_paddingButton="数值dp"
